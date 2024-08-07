@@ -8,13 +8,6 @@
 	padding: 60px 100px;
 }
 
-.navigation-wrapper > .center-column {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 42px;
-	width: 500px;
-}	
-
 .navigation-wrapper > .banner-image {
 	display: flex;
 	justify-content: center;
@@ -26,12 +19,15 @@
 	border-radius: 20px;
 }
 
+.navigation-wrapper > .big-name h1 {
+	text-decoration: underline;
+}
+
 .links-wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
 
 .links-wrapper > .nav-link {
 	width: 70px;
