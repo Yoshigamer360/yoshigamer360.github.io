@@ -1,0 +1,35 @@
+.page-container {
+	height: 400px;
+	background-color: #FFA050;
+	border-top: 10px solid white;
+	color: #11122b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Ubuntu Condensed", sans-serif;
+	box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.page-container > .columns-wrapper {
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-container > .columns-wrapper > .column {
+	padding: 20px;
+	margin: 42px;
+	text-align: center;
+	border: 5px solid transparent;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.page-container > .columns-wrapper > .column:hover {
+	border: 5px solid #505050;
+}
+	
+.page-container > .columns-wrapper > .column a {
+	font-size: 3em;
+	color: #11122b;
+}
