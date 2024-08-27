@@ -62,11 +62,6 @@
 		padding-right: 21px;
 	}
 	
-	.content-wrapper > #chef {
-		margin: 0px 0px 25px 0px !important;
-		width: 100% !important;
-	}
-	
 	.square {
 		grid-template-columns: 1fr !important;
 	}
@@ -85,11 +80,12 @@
 		grid-gap: 10px;
 	}
 	
-	.form input {
-		padding: 1.5rem 0rem;
+	.page-container {
+		height: 100%;
 	}
 	
-	.form textarea {
-		padding: 1.5rem 0rem;
+	.page-container > .columns-wrapper {
+		width: 100%;
+		flex-direction: column;
 	}
 }
