@@ -25,7 +25,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 42px;
+	padding: 24px;
 }
 
 .square > .square-text-wrapper h1{
