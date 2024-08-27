@@ -9,28 +9,18 @@
 	background-size: cover;
 }
 
-.hero-section > .top-heading {
-	padding: 1px 20px;
-	background-color: #11122b;
-	color: #cbcbcb;
-	width: 290px;
-	border-radius: 2px;
-}
-
-.hero-section > .bottom-heading {
-	background-color: #cea135;
+.hero-section > .hero-comment {
+	background-color: #FFA050;
 	color: #11122b;
 	padding: 1px 20px;
-	margin-top: 15px;
-	width: 107px;
+	width: 80px;
 	border-radius: 2px;
 }
 
 /* Features section styles */
 .features-section {
 	height: 400px;
-	background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
-	background-color: #cea135;
+	background-color: #FFA050;
 	border-top: 10px solid white;
 	color: #11122b;
 	display: flex;
@@ -50,13 +40,13 @@
 	padding: 20px;
 	margin: 42px;
 	text-align: center;
-	border-bottom: 5px solid transparent;
+	border: 5px solid transparent;
 	border-radius: 10px;
 	transition: 1s;
 }
 
 .features-section > .columns-wrapper > .column:hover {
-	border-bottom: 5px solid #11122b;
+	border: 5px solid #11122b;
 }
 
 .features-section > .columns-wrapper > .column :nth-child(1) {
@@ -68,10 +58,6 @@
 	font-weight: 900;
 	height: 50px;
 	transition: 1s;
-}
-
-.features-section > .columns-wrapper > .column :nth-child(2):hover {
-	letter-spacing: 1px;
 }
 
 .features-section > .columns-wrapper > .column :nth-child(3) {
