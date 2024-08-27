@@ -8,18 +8,18 @@
 	padding: 60px 100px;
 }
 
-.navigation-wrapper > .banner-image {
+.navigation-wrapper > .left-column > .banner-image {
 	display: flex;
 	justify-content: center;
 }
 
-.navigation-wrapper > .banner-image img {
+.navigation-wrapper > .left-column > .banner-image img {
 	width: 216px;
 	height: 100%;
 	border-radius: 20px;
 }
 
-.navigation-wrapper > .big-name h1 {
+.navigation-wrapper > .center-column > .big-name h1 {
 	text-decoration: underline;
 }
 
@@ -42,6 +42,6 @@
 }
 
 .links-wrapper > .nav-link a:hover {
-	color: #cea135;
+	color: #ffea00;
 	letter-spacing: 2px;
 }
